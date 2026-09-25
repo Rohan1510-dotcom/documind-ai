@@ -1,0 +1,49 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Next.js and Node
+node_modules/
+.next/
+out/
+dist/
+build/
+.env.local
+.env.production
+
+# Uploaded documents and user data
+backend/uploads/
+uploads/
+
+# Local databases
+*.db
+*.sqlite3
+
+# Model weights and generated artifacts
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.joblib
+*.pkl
+
+# Credentials and private keys
+credentials.json
+*.pem
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
