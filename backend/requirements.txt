@@ -2,7 +2,7 @@ fastapi
 uvicorn
 SQLAlchemy
 pgvector
-psycopg2-binary
+psycopg[binary]
 PyMuPDF
 python-dotenv
 python-multipart
